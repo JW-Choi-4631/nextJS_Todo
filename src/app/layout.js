@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
 
 export function Box({children}) {
   return (
-    <div className="flex gap-3 w-full h-screen p-6 bg-base">
+    <div className="flex gap-3 w-full h-screen p-6 bg-etc">
       {children}
     </div>
   )
